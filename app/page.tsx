@@ -7,6 +7,8 @@ import Happening from "./components/Whats_happening";
 import Member from "./components/member";
 import Stories from './components/stories'
 import News from './components/News'
+import Donate from './components/Donate'
+import Contact from './components/Contact'
 export default function Home() {
   return (
       <div className="relative">
@@ -20,6 +22,8 @@ export default function Home() {
       <Member />
       <Stories/>
       <News/>
+      <Donate/>
+      <Contact/>
       </div>
   );
 }

@@ -50,7 +50,7 @@ export default function NewsCards() {
   return (
     <div className="relative w-full px-4">
      
-      <div className="flex gap-6 overflow-x-auto no-scrollbar py-6">
+      <div className="flex flex-col md:flex-row gap-6 overflow-x-auto no-scrollbar py-6">
         {contents.map((content, index) => (
           <div
             key={index}
