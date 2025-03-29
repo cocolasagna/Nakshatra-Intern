@@ -9,6 +9,7 @@ import Stories from './components/stories'
 import News from './components/News'
 import Donate from './components/Donate'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 export default function Home() {
   return (
       <div className="relative">
@@ -24,6 +25,7 @@ export default function Home() {
       <News/>
       <Donate/>
       <Contact/>
+      <Footer />
       </div>
   );
 }

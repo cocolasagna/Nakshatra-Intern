@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image'
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState } from 'react'
 import glocal_icon from '../../public/global_icon.png'
 import { VscLocation } from "react-icons/vsc"
 import { MdAccessTime } from "react-icons/md"
