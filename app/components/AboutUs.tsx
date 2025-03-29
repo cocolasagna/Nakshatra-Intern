@@ -8,7 +8,7 @@ const aboutImages = [about1, about2, about4 ,about3];
 
 export default function About() {
   return (
-    <div className="container px-4  py-12 lg:mx-50 w-full  ">
+    <div className="container px-4  py-12 lg:mx-40 w-full  ">
       <div className="flex flex-col-reverse lg:flex-row gap-8 ">
        
 
