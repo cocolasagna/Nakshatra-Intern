@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Donation() {
   return (
-    <div className="bg-blue-400 text-white pl-24 pt-12  flex flex-col md:flex-row items-center relative">
+    <div className="bg-blue-400 text-white md:pl-24 pt-12  flex flex-col md:flex-row items-center relative">
       {/* Left Side - Text */}
       <div className="md:w-1/2 text-center md:text-left pb-2 ">
         <p className="text-sm uppercase font-semibold">Support Global Change</p>
@@ -19,7 +19,7 @@ export default function Donation() {
         </button>
       </div>
 
-      {/* Right Side - Image Positioned at Bottom-Right */}
+      {/* Right Side - Image */}
       <div className="hidden  md:w-1/2 relative mt-10 md:mt-0 md:flex justify-end">
         <div className="relative w-[600px] h-[250px] bg-white rounded-tl-xl overflow-hidden shadow-lg">
           <Image

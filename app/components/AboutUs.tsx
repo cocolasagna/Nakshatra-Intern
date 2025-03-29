@@ -13,7 +13,7 @@ export default function About() {
        
 
         {/* Image Grid */}
-        <div className="lg:w-1/3 pl-28">
+        <div className="lg:w-1/3 md:pl-28">
   <div className="grid grid-cols-2 gap-4 md:grid-rows-3">
     {aboutImages.map((aboutImage, index) => (
       <div 

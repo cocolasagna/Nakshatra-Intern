@@ -86,7 +86,6 @@ export default function Footer() {
   <p className="text-sm text-gray-500 text-center">© 2024 GAC. All rights reserved.</p>
   </div>
   <div className="flex  space-x-4">
-    {/* Social icons placeholders - replace with actual icons/links */}
     <BiLogoFacebook />
     <IoLogoInstagram />
     <FaTwitter />

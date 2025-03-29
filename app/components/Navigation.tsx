@@ -56,8 +56,8 @@ export default function Navigation() {
       </div>
 
       {/* Main Navigation */}
-      <div className="max-w-full mx-auto px-4 md:px-28 bg-white">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center py-4">
+      <div className=" max-w-full mx-auto px-4 md:px-28 bg-white">
+        <div className=" flex flex-col md:flex-row justify-between items-start md:items-center py-4">
           {/* Logo Section */}
           <div className="mb-4 md:mb-0">
             <Image
