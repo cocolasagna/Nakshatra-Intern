@@ -10,12 +10,13 @@ import News from './components/News'
 import Donate from './components/Donate'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+
+
 export default function Home() {
   return (
       <div className="relative">
      
       <Navigation />
-   
       <Empower />
       <About />
       <Council />
@@ -29,3 +30,4 @@ export default function Home() {
       </div>
   );
 }
+

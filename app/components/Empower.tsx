@@ -4,6 +4,7 @@ import Image from "next/image";
 import GlobeImage from "../../public/empower/globe.png";
 import PeopleImage from "../../public/empower/people.png";
 
+
 function StatCard({ number, label }) {
   return (
     <div className="flex flex-col items-center rounded-lg bg-white p-3 shadow-md">

@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import council1 from "../../public/council/council_1.png";
-import council2 from "../../public/council/council_2.jpg";
-import council3 from "../../public/council/council_3.png";
+import stories3 from "../../public/stories/stories_3.png";
+import stories2 from "../../public/stories/stories_2.jpg";
+import stories1 from "../../public/stories/stories_1.jpg";
 
 const councilData = [
-    { image: council1, date: '27th,Jan 2025', description: 'First image description' },
-    { image: council2, date: '27th,Jan 2025', description: 'Second image description' },
-    { image: council3, date: '27th,Jan 2025', description: 'Third image description' }
+    { image: stories1, date: '27th,Jan 2025', description: 'First image description' },
+    { image: stories2, date: '27th,Jan 2025', description: 'Second image description' },
+    { image: stories3, date: '27th,Jan 2025', description: 'Third image description' }
 ];
 
 export default function Stories() {
